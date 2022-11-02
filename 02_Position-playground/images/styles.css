@@ -1,0 +1,50 @@
+body {
+    width: 100%;
+}
+.viewport-one section.card {
+    display: block;
+    position: absolute;
+  
+}
+.viewport-two section.card {
+    display: block;
+    position: absolute;
+  
+}
+
+
+.viewport-one 
+{
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: blue;
+    padding: 490px;
+    z-index: 2;
+    
+}
+
+.viewport-second
+{
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: pink;
+    padding: 490px;
+}
+
+.viewport-second .card .img
+{
+    position: relative;
+    top:-9px;
+    right:30px;
+}
+
+.viewport-one .card .img
+{
+    position: relative;
+    top:-9px;
+    right:30px;
+}

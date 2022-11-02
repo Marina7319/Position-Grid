@@ -1,0 +1,42 @@
+ul li a img {
+    width: 26px;
+    height: 26px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+ul li a {
+    display: inline-block;
+    border-radius: 50%;
+    background: lightgrey; 
+    padding: 13px;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+li a .facebook:hover {
+    background-color: cornflowerblue;
+}
+
+li a .twitter:hover {
+    background-color: cornflowerblue;
+}
+
+li a .google:hover {
+    background-color: crimson;
+}
+
+li a .linkedin:hover {
+    background-color: cornflowerblue;
+}
+
+li a .instagram:hover {
+    background-color: cornflowerblue;
+}
